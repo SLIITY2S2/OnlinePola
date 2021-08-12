@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Orderid">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvtext1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvtext1"
+        android:layout_width="188dp"
+        android:layout_height="74dp"
+        android:text="@string/order_id"
+        android:textSize="@dimen/fruit_font"
+        app:layout_constraintBottom_toTopOf="@+id/tvtotal"
+        app:layout_constraintEnd_toStartOf="@+id/tvorderid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo" />
+
+    <TextView
+        android:id="@+id/tvorderid"
+        android:layout_width="188dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvtext1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvtext1" />
+
+    <TextView
+        android:id="@+id/tvtotal"
+        android:layout_width="190dp"
+        android:layout_height="74dp"
+        android:text="@string/total_price"
+        android:textSize="@dimen/fruit_font"
+        app:layout_constraintBottom_toTopOf="@+id/btnedit"
+        app:layout_constraintEnd_toStartOf="@+id/tvtotalprice"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtext1" />
+
+    <TextView
+        android:id="@+id/tvtotalprice"
+        android:layout_width="189dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvtotal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvtotal" />
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="146dp"
+        android:layout_height="74dp"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnconfirm"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtotal" />
+
+    <Button
+        android:id="@+id/btnconfirm"
+        android:layout_width="145dp"
+        android:layout_height="74dp"
+        android:text="@string/confirm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnedit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

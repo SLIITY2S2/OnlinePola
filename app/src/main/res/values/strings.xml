@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">පොළ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profle">Profile</string>
+    <string name="menu_order">Search Placed orders</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="hi">Hello</string>
+    <string name="fruit1name">Banana</string>
+    <string name="fruit1price">Rs.50/= per 1kg</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="number">0</string>
+    <string name="fruit2name">Mango</string>
+    <string name="fruit2price">Rs.100/= per 1kg</string>
+    <string name="fruit3name">Pineapple</string>
+    <string name="fruit3price">Rs.150/= per 1kg</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="title">Shipping Address</string>
+    <string name="fist_Name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="street_address">Street Address</string>
+    <string name="city">City</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="confirm">Confirm</string>
+    <string name="productname">Product Name</string>
+    <string name="unit">Unit</string>
+    <string name="price">Price</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="thank">Thank you.</string>
+    <string name="order_id">Your order Id is </string>
+    <string name="total_price">Total price Rs.</string>
+    <string name="Rs">/=</string>
+    <string name="paymenttitle">Credit/Debit</string>
+    <string name="cardno">Card Number</string>
+    <string name="paymentdesc">Save Card. I acknowledge that my card information is saved in my පොළ account for</string>
+    <string name="contact">Contact Us</string>
+    <string name="Address">Address : </string>
+    <string name="companyaddress">No 112/B, Katugasthota road, Mahaiyawa</string>
+    <string name="teleno">0812111255</string>
+    <string name="emailn">Email : </string>
+    <string name="email">pola@gmail.com</string>
+    <string name="fb">Facebook : </string>
+    <string name="facebook">https://www.facebook.com/pola</string>
+    <string name="tele">Telephone Number : </string>
+    <string name="search">Order ID</string>
+    <string name="itemname">Item</string>
+
+
+    <string-array name="city_array">
+        <item>Kandy</item>
+        <item>Suduhumpala</item>
+        <item>Asgiriya</item>
+        <item>Mulgampala</item>
+        <item>Peradeniya</item>
+        <item>Katugasthota</item>
+        <item>Mahaiyawa</item>
+        <item>Lewalla</item>
+    </string-array>
+
+
+</resources>

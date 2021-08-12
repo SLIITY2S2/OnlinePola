@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="paddingleft">10</dimen>
+    <dimen name="paddingtop">3</dimen>
+    <dimen name="paddingright">10</dimen>
+    <dimen name="paddingbottom">3</dimen>
+    <dimen name="width">250dp</dimen>
+    <dimen name="height">250dp</dimen>
+    <dimen name="title_width">100dp</dimen>
+    <dimen name="title_height">80dp</dimen>
+    <dimen name="title_fontize">80dp</dimen>
+    <dimen name="logo_width">100dp</dimen>
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="topic_width">40dp</dimen>
+    <dimen name="topic_height">40dp</dimen>
+    <dimen name="topic_font">40dp</dimen>
+    <dimen name="button_width">120dp</dimen>
+    <dimen name="button_height">70dp</dimen>
+    <dimen name="buton_font_size">20dp</dimen>
+    <dimen name="input_width">204dp</dimen>
+    <dimen name="input_height">47dp</dimen>
+    <dimen name="fruit_font">30dp</dimen>
+    <dimen name="fruit_price_font">20dp</dimen>
+    <dimen name="number">40dp</dimen>
+    <dimen name="btnwidth">40dp</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+    <dimen name="logotitle">40dp</dimen>
+    <dimen name="input">20dp</dimen>
+</resources>
