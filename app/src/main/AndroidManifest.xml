@@ -32,7 +32,9 @@
             android:parentActivityName=".Editcart">
 
         </activity>
-        <activity android:name=".FirstPage">
+        <activity android:name=".FirstPage"
+            android:theme="@style/Theme.MobileApp.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

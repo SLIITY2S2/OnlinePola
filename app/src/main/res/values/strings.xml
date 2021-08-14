@@ -7,11 +7,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!--Navigation drawer -->
     <string name="menu_home">Home</string>
     <string name="menu_profle">Profile</string>
     <string name="menu_order">Search Placed orders</string>
     <string name="menu_contact">Contact Us</string>
     <string name="hi">Hello</string>
+
+    <!--Home page -->
     <string name="fruit1name">Banana</string>
     <string name="fruit1price">Rs.50/= per 1kg</string>
     <string name="plus">+</string>
@@ -26,6 +29,8 @@
     <string name="btn3">3</string>
     <string name="btn4">4</string>
     <string name="btn5">5</string>
+
+    <!--Shipping -->
     <string name="title">Shipping Address</string>
     <string name="fist_Name">First Name</string>
     <string name="last_name">Last Name</string>
@@ -34,18 +39,26 @@
     <string name="phone_no">Phone Number</string>
     <string name="submit">Submit</string>
     <string name="confirm">Confirm</string>
+
+    <!--Edit cart -->
     <string name="productname">Product Name</string>
     <string name="unit">Unit</string>
     <string name="price">Price</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
-    <string name="thank">Thank you.</string>
+
+   <!--Search order -->
     <string name="order_id">Your order Id is </string>
     <string name="total_price">Total price Rs.</string>
     <string name="Rs">/=</string>
-    <string name="paymenttitle">Credit/Debit</string>
+
+    <!--Payment -->
+    <string name="paymenttitle">Credit/Debit Card</string>
     <string name="cardno">Card Number</string>
     <string name="paymentdesc">Save Card. I acknowledge that my card information is saved in my පොළ account for</string>
+    <string name="btn_submit">Pay Now</string>
+
+    <!--Contact us -->
     <string name="contact">Contact Us</string>
     <string name="Address">Address : </string>
     <string name="companyaddress">No 112/B, Katugasthota road, Mahaiyawa</string>
@@ -55,10 +68,15 @@
     <string name="fb">Facebook : </string>
     <string name="facebook">https://www.facebook.com/pola</string>
     <string name="tele">Telephone Number : </string>
+
+    <!--search order id -->
     <string name="search">Order ID</string>
     <string name="itemname">Item</string>
 
+    <!--sign out -->
+    <string name="signout">Sign out</string>
 
+    <!--spinner of cart -->
     <string-array name="city_array">
         <item>Kandy</item>
         <item>Suduhumpala</item>
