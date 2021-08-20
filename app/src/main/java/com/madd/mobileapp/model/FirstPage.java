@@ -1,4 +1,4 @@
-package com.madd.mobileapp;
+package com.madd.mobileapp.model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
+
+import com.madd.mobileapp.R;
 
 public class FirstPage extends AppCompatActivity {
 
@@ -23,7 +25,7 @@ public class FirstPage extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(FirstPage.this,MainActivity.class);
+                Intent i=new Intent(FirstPage.this, MainActivity.class);
                 //Intent is used to switch from one activity to another.
 
                 startActivity(i);

@@ -1,18 +1,12 @@
-package com.madd.mobileapp;
+package com.madd.mobileapp.model;
 
-import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 
 
 import com.google.android.material.navigation.NavigationView;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -20,9 +14,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.auth.FirebaseAuth;
+import com.madd.mobileapp.R;
 import com.madd.mobileapp.databinding.ActivityMainBinding;
-import com.madd.mobileapp.ui.Contact.ContactFragment;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,8 +1,10 @@
-package com.madd.mobileapp;
+package com.madd.mobileapp.model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.madd.mobileapp.R;
 
 public class Payment extends AppCompatActivity {
 

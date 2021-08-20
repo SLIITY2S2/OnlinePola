@@ -1,14 +1,16 @@
-package com.madd.mobileapp;
+package com.madd.mobileapp.model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Orderid extends AppCompatActivity {
+import com.madd.mobileapp.R;
+
+public class Cart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_orderid);
+        setContentView(R.layout.activity_cart);
     }
 }
