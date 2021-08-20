@@ -88,5 +88,12 @@
         <item>Lewalla</item>
     </string-array>
 
+    <string-array name="items">
+        <item>Vegitable</item>
+        <item>Fruit</item>
+        <item>Animal Product</item>
+
+    </string-array>
+
 
 </resources>
