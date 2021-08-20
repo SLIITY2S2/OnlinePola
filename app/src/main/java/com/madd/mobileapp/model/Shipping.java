@@ -1,4 +1,4 @@
-package com.madd.mobileapp;
+package com.madd.mobileapp.model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.madd.mobileapp.R;
 
 public class Shipping extends AppCompatActivity {
 

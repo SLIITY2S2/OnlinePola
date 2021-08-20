@@ -9,30 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileApp">
-        <activity android:name=".Payment" android:parentActivityName=".Shipping">
+        <activity android:name=".model.Payment" android:parentActivityName=".model.Shipping">
 
         </activity>
         <activity
-            android:name=".Orderid"
-            android:parentActivityName=".Cart">
+            android:name=".model.Orderid"
+            android:parentActivityName=".model.Cart">
 
         </activity>
         <activity
-            android:name=".Editcart"
-            android:parentActivityName=".Orderid">
+            android:name=".model.Editcart"
+            android:parentActivityName=".model.Orderid">
 
         </activity>
         <activity
-            android:name=".Cart"
-            android:parentActivityName=".MainActivity">
+            android:name=".model.Cart"
+            android:parentActivityName=".model.MainActivity">
 
         </activity>
         <activity
-            android:name=".Shipping"
-            android:parentActivityName=".Editcart">
+            android:name=".model.Shipping"
+            android:parentActivityName=".model.Editcart">
 
         </activity>
-        <activity android:name=".FirstPage"
+        <activity android:name=".model.FirstPage"
             android:theme="@style/Theme.MobileApp.NoActionBar">
 
             <intent-filter>
@@ -42,7 +42,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".model.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.MobileApp">
 
