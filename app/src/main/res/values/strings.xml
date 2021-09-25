@@ -30,6 +30,10 @@
     <string name="btn4">4</string>
     <string name="btn5">5</string>
 
+    <!--Customer-->
+    <string name="name">Enter name</string>
+
+
     <!--Shipping -->
     <string name="title">Shipping Address</string>
     <string name="fist_Name">First Name</string>
@@ -47,7 +51,7 @@
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
 
-   <!--Search order -->
+    <!--Search order -->
     <string name="order_id">Your order Id is </string>
     <string name="total_price">Total price Rs.</string>
     <string name="Rs">/=</string>
@@ -94,6 +98,15 @@
         <item>Animal Product</item>
 
     </string-array>
+
+    <string name="buttonadd">Add</string>
+    <string name="chekout">CheckOut</string>
+    <string name="btnUpload">Upload</string>
+    <string name="Confirmbtn">Confirm</string>
+    <string name="updatebtn">Update</string>
+    <string name="phone">Enter Phone</string>
+    <string name="inputEmail">Enter Email</string>
+    <string name="pwd">Enter Password</string>
 
 
 </resources>

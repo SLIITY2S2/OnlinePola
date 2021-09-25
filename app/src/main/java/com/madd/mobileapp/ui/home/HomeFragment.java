@@ -1,5 +1,6 @@
 package com.madd.mobileapp.ui.home;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,8 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,14 +20,23 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.madd.mobileapp.Activity.MainActivity;
+import com.madd.mobileapp.Activity.MycartActivity;
+import com.madd.mobileapp.Adapter.ProductAdapter;
 import com.madd.mobileapp.R;
+
 import com.madd.mobileapp.databinding.FragmentHomeBinding;
+import com.madd.mobileapp.models.Product;
+
+import java.util.ArrayList;
 
 public class HomeFragment extends Fragment{
 
     private HomeViewModel homeViewModel;
     private FragmentHomeBinding binding;
     Spinner dropdown;
+    String fname;
+    TextView fn;
 
     public HomeFragment(){
 
@@ -38,8 +50,8 @@ public class HomeFragment extends Fragment{
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        dropdown = root.findViewById(R.id.cat_spinner);
-        initspinnerfooter();
+        /*dropdown = root.findViewById(R.id.cat_spinner);
+        initspinnerfooter();*/
 
 
         final TextView textView = binding.textHome;
@@ -49,10 +61,20 @@ public class HomeFragment extends Fragment{
                 textView.setText(s);
             }
         });
+        fn = (TextView) root.findViewById(R.id.fname);
+        if(getArguments() != null){
+            fname = getArguments().getString("name");
+            fn.setText(fname);
+        }
 
 
         return root;
     }
+
+
+
+
+
     private void initspinnerfooter() {
         String[] items = new String[]{
                 "Vegetables", "Fruits", "Animal Product",
