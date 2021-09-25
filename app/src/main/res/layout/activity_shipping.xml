@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".model.Shipping">
+    tools:context=".Activity.Shipping">
 
     <ImageView
         android:id="@+id/imglogo"
@@ -87,7 +87,7 @@
         android:layout_width="@dimen/input_width"
         android:layout_height="@dimen/input_height"
         android:ems="10"
-        android:hint="Phone number"
+        android:hint="@string/phone_no"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,6 +101,7 @@
         android:layout_height="@dimen/button_height"
         android:background="@color/button"
         android:backgroundTint="@color/button"
+        android:onClick="OnClickinsertShipping"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,4 +1,4 @@
-package com.madd.mobileapp.model;
+package com.madd.mobileapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,14 +25,12 @@ public class FirstPage extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(FirstPage.this, MainActivity.class);
-                //Intent is used to switch from one activity to another.
+                Intent i=new Intent(FirstPage.this, SignupActivity.class);
 
                 startActivity(i);
-                //invoke the SecondActivity.
 
                 finish();
-                //the current activity will get finished.
+
             }
         }, SPLASH_SCREEN_TIME_OUT);
 
